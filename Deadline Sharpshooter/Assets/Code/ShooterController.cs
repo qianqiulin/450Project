@@ -4,21 +4,26 @@ using UnityEngine;
 
 public class ShooterController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Rigidbody2D _rb;
+
+    // Configuration
+    public float speed;
     void Start()
     {
-        
+        _rb = GetComponent<Rigidbody2D>();
     }
+
+
     void Update()
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.position += new Vector3(-0.2f, 0, 0);
+            _rb.AddRelativeForce(Vector2.left * speed * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.position += new Vector3(0.2f, 0, 0);
+            _rb.AddRelativeForce(Vector2.right * speed * Time.deltaTime);
         }
-        
+
     }
 }
