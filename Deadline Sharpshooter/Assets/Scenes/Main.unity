@@ -225,7 +225,6 @@ GameObject:
   m_Component:
   - component: {fileID: 805425641}
   - component: {fileID: 805425642}
-  - component: {fileID: 805425643}
   m_Layer: 0
   m_Name: LeftBoundary
   m_TagString: Untagged
@@ -293,18 +292,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 10.85831}
   m_EdgeRadius: 0
---- !u!114 &805425643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805425638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 509ca0072599f1b46b30511a813c0898, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &846034907
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,7 +462,7 @@ Transform:
   m_GameObject: {fileID: 1380960805}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.04, y: 0.43, z: 0}
+  m_LocalPosition: {x: -0.049, y: 0.635, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
