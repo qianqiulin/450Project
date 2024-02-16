@@ -5,8 +5,9 @@ using UnityEngine;
 public class ShooterController : MonoBehaviour
 {
     Rigidbody2D _rb;
-
-    // Configuration
+    public Transform bulletSpawnPoint;
+    public GameObject bulletPrefab;
+    public float bulletSpeed=10;
     public float speed;
     void Start()
     {
@@ -24,6 +25,9 @@ public class ShooterController : MonoBehaviour
         {
             _rb.AddRelativeForce(Vector2.right * speed * Time.deltaTime);
         }
-
+        if (Input.GetKeyDown(KeyCode.Space)){
+            var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+            bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.up * bulletSpeed;
+        }
     }
 }
