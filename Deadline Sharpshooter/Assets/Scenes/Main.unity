@@ -225,7 +225,6 @@ GameObject:
   m_Component:
   - component: {fileID: 705614820}
   - component: {fileID: 705614819}
-  - component: {fileID: 705614818}
   - component: {fileID: 705614817}
   m_Layer: 0
   m_Name: Target-Canvas
@@ -279,20 +278,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8, y: 0.8}
   m_EdgeRadius: 0
---- !u!114 &705614818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705614816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 511c0d339c096384ea845b07239059cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectA: {fileID: 0}
-  objectB: {fileID: 0}
 --- !u!212 &705614819
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -386,7 +371,7 @@ Transform:
   m_GameObject: {fileID: 805425638}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.87, y: 3.91, z: -0.0081807}
+  m_LocalPosition: {x: -9.37, y: 3.98, z: -0.0081807}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -448,7 +433,6 @@ GameObject:
   m_Component:
   - component: {fileID: 846034909}
   - component: {fileID: 846034908}
-  - component: {fileID: 846034910}
   - component: {fileID: 846034911}
   m_Layer: 0
   m_Name: Target
@@ -524,20 +508,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &846034910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846034907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 511c0d339c096384ea845b07239059cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectA: {fileID: 1587960658}
-  objectB: {fileID: 846034909}
 --- !u!61 &846034911
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1150,7 +1120,7 @@ Transform:
   m_GameObject: {fileID: 1733721088}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.74, y: 0.1, z: 0}
+  m_LocalPosition: {x: 18.72, y: -0.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
