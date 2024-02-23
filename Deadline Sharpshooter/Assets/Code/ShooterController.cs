@@ -8,7 +8,7 @@ public class ShooterController : MonoBehaviour
     public Transform bulletSpawnPoint;
     public GameObject bulletPrefab;
     public float bulletSpeed=10;
-    public float speed;
+    public float speed=5f;
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -17,14 +17,19 @@ public class ShooterController : MonoBehaviour
 
     void Update()
     {
+        float move = 0f;
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            _rb.AddRelativeForce(Vector2.left * speed * Time.deltaTime);
+            move = -1f;
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
-            _rb.AddRelativeForce(Vector2.right * speed * Time.deltaTime);
+            move = 1f;
         }
+
+      
+        _rb.velocity = new Vector2(move * speed, _rb.velocity.y);
+
         if (Input.GetKeyDown(KeyCode.Space)){
             var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
             bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.up * bulletSpeed;
