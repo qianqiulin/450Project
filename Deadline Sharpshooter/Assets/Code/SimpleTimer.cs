@@ -8,12 +8,15 @@ using UnityEngine.SceneManagement; // Add this for scene management.
 public class SimpleTimer : MonoBehaviour
 {
     public TMP_Text timerText;
+    public TMP_Text instructionsText;
     private float timeRemaining = 15f; // Start the countdown from 15 seconds
     private bool isRunning = false;
+    private bool instructionsOnScreen = true;
 
     void Start()
     {
         // Initialize and start the countdown timer.
+
         StartTimer();
     }
 
@@ -21,19 +24,29 @@ public class SimpleTimer : MonoBehaviour
     {
         if (isRunning)
         {
-            if (timeRemaining > 0)
-            {
-                // Subtract the elapsed time since the last frame from the remaining time
-                timeRemaining -= Time.deltaTime;
-                // Update the UI Text element with the formatted time.
-                if (timerText != null) timerText.text = FormatTime(timeRemaining);
-            }
-            else
-            {
-                // Stop the timer and reset the scene when the countdown reaches zero
-                StopTimer();
-                timeRemaining = 0; // Ensure time doesn't go into negative values
-                ResetScene();
+            if(instructionsOnScreen){
+                if(timeRemaining > 0){
+                    timeRemaining -= Time.deltaTime;
+                } else {
+                    instructionsOnScreen = false;
+                    Destroy(instructionsText);
+                    timeRemaining = 20f;
+                }
+            } else {
+                if (timeRemaining > 0)
+                {
+                    // Subtract the elapsed time since the last frame from the remaining time
+                    timeRemaining -= Time.deltaTime;
+                    // Update the UI Text element with the formatted time.
+                    if (timerText != null) timerText.text = FormatTime(timeRemaining);
+                }
+                else
+                {
+                    // Stop the timer and reset the scene when the countdown reaches zero
+                    StopTimer();
+                    timeRemaining = 0; // Ensure time doesn't go into negative values
+                    ResetScene();
+                }
             }
         }
     }
@@ -41,7 +54,7 @@ public class SimpleTimer : MonoBehaviour
     public void StartTimer()
     {
         isRunning = true;
-        timeRemaining = 20f; // Reset the countdown to 15 seconds whenever we start the timer
+        timeRemaining = 5f; // Reset the countdown to 15 seconds whenever we start the timer
     }
 
     public void StopTimer()

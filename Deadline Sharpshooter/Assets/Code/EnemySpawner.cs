@@ -21,7 +21,7 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine("EnemyRoutine");
     }
     IEnumerator EnemyRoutine(){
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(5f);
 
         while(true) {
             foreach (float posX in arrPosX)
