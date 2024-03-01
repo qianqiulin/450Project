@@ -9,11 +9,25 @@ public class ShooterController : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed=10;
     public float speed=5f;
+
+    SpriteRenderer sprite;
+    Animator animator;
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-    }
 
+        sprite=GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+    }
+    void FixedUpdate(){
+        animator.SetFloat("Speed",_rb.velocity.magnitude);
+        if(_rb.velocity.magnitude>0){
+            animator.speed=_rb.velocity.magnitude /25f;  //chage animation speed when moving 
+        }
+        else{
+            animator.speed=1f; //change animation speed when not moving
+        }
+    }
 
     void Update()
     {
@@ -21,10 +35,12 @@ public class ShooterController : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             move = -1f;
+            sprite.flipX=true;
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
             move = 1f;
+            sprite.flipX=false;
         }
 
       

@@ -41,7 +41,7 @@ public class SimpleTimer : MonoBehaviour
     public void StartTimer()
     {
         isRunning = true;
-        timeRemaining = 8f; // Reset the countdown to 15 seconds whenever we start the timer
+        timeRemaining = 20f; // Reset the countdown to 15 seconds whenever we start the timer
     }
 
     public void StopTimer()
