@@ -13,6 +13,13 @@ public class Bullet : MonoBehaviour
     {
         if(collision.gameObject.tag != "Boundary") {
             Destroy(collision.gameObject);
+            // Notify GameManager to update the score
+            Obstacles obstacle = collision.gameObject.GetComponent<Obstacles>();
+            if (obstacle != null) // Ensure the collided object is an obstacle
+            {
+                // Notify GameManager to update the score with the obstacle's score value
+                GameManager.instance.AddScore(obstacle.scoreValue);
+            }
         }
         
         Destroy(gameObject);

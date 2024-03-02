@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]
@@ -11,7 +11,6 @@ public class EnemySpawner : MonoBehaviour
     private float[] arrPosX = { -7f,-2.5f,2f,6.5f };
     
     private float spawnInverval = 3f;
-
     void Start()
     {
         StartEnemyRoutine();
