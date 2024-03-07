@@ -12,6 +12,7 @@ public class SimpleTimer : MonoBehaviour
     private float timeRemaining = 15f; // Start the countdown from 15 seconds
     private bool isRunning = false;
     private bool instructionsOnScreen = true;
+    public GameObject ResultPanel;
 
     void Start()
     {
@@ -44,8 +45,8 @@ public class SimpleTimer : MonoBehaviour
                 {
                     // Stop the timer and reset the scene when the countdown reaches zero
                     StopTimer();
-                    timeRemaining = 0; // Ensure time doesn't go into negative values
-                    ResetScene();
+                    timeRemaining = 0; // Ensure time doesn't go into negative values                           
+                    ResultPanel.SetActive(true);
                 }
             }
         }
@@ -73,5 +74,8 @@ public class SimpleTimer : MonoBehaviour
     {
         // Load the current scene again
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    public void playAgain(){
+        ResetScene();
     }
 }
