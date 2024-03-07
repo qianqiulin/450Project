@@ -9,7 +9,13 @@ public class ShooterController : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed=10;
     public float speed=5f;
+    public int maxBullets = 3;
+    private int currentBullets=3;
+    public float reloadTime = 1f;
+    private bool isReloading = false;
+    public float cooldownTime = 3f;
 
+    private float lastShootTime;
     SpriteRenderer sprite;
     Animator animator;
     void Start()
@@ -22,10 +28,10 @@ public class ShooterController : MonoBehaviour
     void FixedUpdate(){
         animator.SetFloat("Speed",_rb.velocity.magnitude);
         if(_rb.velocity.magnitude>0){
-            animator.speed=_rb.velocity.magnitude /25f;  //chage animation speed when moving 
+            animator.speed=_rb.velocity.magnitude /25f;  
         }
         else{
-            animator.speed=1f; //change animation speed when not moving
+            animator.speed=1f; 
         }
     }
 
@@ -45,10 +51,48 @@ public class ShooterController : MonoBehaviour
 
       
         _rb.velocity = new Vector2(move * speed, _rb.velocity.y);
-
-        if (Input.GetKeyDown(KeyCode.Space)){
-            var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
-            bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.up * bulletSpeed;
+        if (Input.GetKeyDown(KeyCode.Space) && currentBullets > 0 && !isReloading)
+        {
+            Shoot();
+            if (currentBullets <= 0)
+            {
+                StartCoroutine(Cooldown());
+            }
         }
+
+        if (!isReloading && currentBullets < maxBullets && Time.time - lastShootTime >= reloadTime)
+        {
+            Reload();
+        }
+       
+        }
+    void Shoot()
+        {
+            if (bulletPrefab != null && bulletSpawnPoint != null)
+            {
+                var bullet=Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+                bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.up * bulletSpeed;
+        }
+            currentBullets--;
+            lastShootTime = Time.time;
+        print(currentBullets);
+        }
+
+        void Reload()
+        {
+            currentBullets++;
+            lastShootTime = Time.time;
+        print("reloading");
+        print(currentBullets);
+        }
+
+        IEnumerator Cooldown()
+        {
+            isReloading = true;
+            print("cooling down");
+            yield return new WaitForSeconds(cooldownTime);
+            isReloading = false;
+            currentBullets = 3;
+            lastShootTime = Time.time;
     }
 }
