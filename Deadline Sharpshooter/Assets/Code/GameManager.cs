@@ -6,7 +6,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance; // Singleton instance for easy access
+    public SimpleTimer timer; //Singleton instance for easy access as well
 
+    public int timeRewardForDestroying;
     public TMP_Text scoreText; // Reference to the text component
     private int score = 0; // Initial score
 
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour
     {
         score += amount;
         UpdateScoreDisplay();
+        timer.increaseTimer(timeRewardForDestroying);
     }
 
     void UpdateScoreDisplay()

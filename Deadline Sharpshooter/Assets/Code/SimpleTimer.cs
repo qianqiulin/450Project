@@ -78,4 +78,8 @@ public class SimpleTimer : MonoBehaviour
     public void playAgain(){
         ResetScene();
     }
+
+    public void increaseTimer(float amountToAdd){
+        timeRemaining += amountToAdd;
+    }
 }

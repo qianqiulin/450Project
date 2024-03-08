@@ -292,6 +292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acede954ffa3f604cba8ef4ab04154e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 1051002269}
+  timeRewardForDestroying: 1
   scoreText: {fileID: 807725757}
 --- !u!4 &228615759
 Transform:

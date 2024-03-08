@@ -11,7 +11,7 @@ public class Bullet : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag != "Boundary") {
+        if(collision.gameObject.tag != "Boundary" || collision.gameObject.tag != "Despawner") {
             Destroy(collision.gameObject);
             // Notify GameManager to update the score
             Obstacles obstacle = collision.gameObject.GetComponent<Obstacles>();
@@ -22,6 +22,10 @@ public class Bullet : MonoBehaviour
             }
         }
         
+        Destroy(gameObject);
+    }
+
+    void OnBecameInvisible(){
         Destroy(gameObject);
     }
 }

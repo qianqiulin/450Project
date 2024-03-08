@@ -11,4 +11,8 @@ public class Obstacles : MonoBehaviour
     {
         transform.position += Vector3.down * moveSpeed * Time.deltaTime;
     }
+
+    void OnBecameInvisible(){
+        Destroy(gameObject);
+    }
 }
