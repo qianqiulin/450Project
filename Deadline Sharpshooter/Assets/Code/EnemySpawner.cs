@@ -8,8 +8,8 @@ public class EnemySpawner : MonoBehaviour
 
     private GameObject[] obstacles;
 
-    private float[] arrPosX = { -7f,-2.5f,2f,6.5f };
-    
+    private float minX = -7f;
+    private float maxX = 7f;     
     private float spawnInverval = 3f;
     void Start()
     {
@@ -22,13 +22,17 @@ public class EnemySpawner : MonoBehaviour
     IEnumerator EnemyRoutine(){
         yield return new WaitForSeconds(5f);
 
-        while(true) {
-            foreach (float posX in arrPosX)
+        while (true){
+            int obstaclesToSpawn = Random.Range(1, obstacles.Length + 1);
+
+            for (int i = 0; i < obstaclesToSpawn; i++)
             {
+                float posX = Random.Range(minX, maxX);
+
                 int index = Random.Range(0, obstacles.Length);
+
                 SpawnEnemy(posX, index);
             }
-
             yield return new WaitForSeconds(spawnInverval);
         }
     }
