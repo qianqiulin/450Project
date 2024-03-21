@@ -82,4 +82,8 @@ public class SimpleTimer : MonoBehaviour
     public void increaseTimer(float amountToAdd){
         timeRemaining += amountToAdd;
     }
+
+    public void decreaseTimer(float amountToSubtract){
+        timeRemaining -= amountToSubtract;
+    }
 }

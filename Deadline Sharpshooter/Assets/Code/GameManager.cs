@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public SimpleTimer timer; //Singleton instance for easy access as well
 
     public int timeRewardForDestroying;
+    public int timePenaltyForGettingHit;
     public TMP_Text scoreText; // Reference to the text component
     private int score = 0; // Initial score
 
@@ -30,6 +31,10 @@ public class GameManager : MonoBehaviour
         score += amount;
         UpdateScoreDisplay();
         timer.increaseTimer(timeRewardForDestroying);
+    }
+
+    public void SubtractTime() {
+        timer.decreaseTimer(timePenaltyForGettingHit);
     }
 
     void UpdateScoreDisplay()

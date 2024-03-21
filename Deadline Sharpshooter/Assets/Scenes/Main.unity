@@ -294,6 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: {fileID: 1051002269}
   timeRewardForDestroying: 1
+  timePenaltyForGettingHit: 2
   scoreText: {fileID: 807725757}
 --- !u!4 &228615759
 Transform:

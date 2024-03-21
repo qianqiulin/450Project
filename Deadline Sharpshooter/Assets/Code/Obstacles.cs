@@ -15,4 +15,11 @@ public class Obstacles : MonoBehaviour
     void OnBecameInvisible(){
         Destroy(gameObject);
     }
+
+    void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.GetComponent<ShooterController>()) {
+            //Taking away time when the object hits the shooter
+            GameManager.instance.SubtractTime();
+        }
+    }
 }
