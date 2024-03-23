@@ -52,7 +52,7 @@ public class SimpleTimer : MonoBehaviour
                     {
                     ResultPanel.SetActive(true);
                     }
-                    if (GameManager.instance.score < 30)
+                    else if (GameManager.instance.score >0 && GameManager.instance.score < 30)
                     {
                     // If the score is under 30, show the fail panel
                     FailPanel.SetActive(true);
