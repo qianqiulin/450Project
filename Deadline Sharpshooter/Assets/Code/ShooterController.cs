@@ -75,7 +75,6 @@ public class ShooterController : MonoBehaviour
         }
             currentBullets--;
             lastShootTime = Time.time;
-        //print(currentBullets);
         }
 
         void Reload()
@@ -92,7 +91,7 @@ public class ShooterController : MonoBehaviour
             //print("cooling down");
             yield return new WaitForSeconds(cooldownTime);
             isReloading = false;
-            currentBullets = 3;
+            currentBullets = 1;
             lastShootTime = Time.time;
     }
 

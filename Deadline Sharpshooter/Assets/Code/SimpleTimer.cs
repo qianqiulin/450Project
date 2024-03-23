@@ -39,9 +39,10 @@ public class SimpleTimer : MonoBehaviour
                 if (timeRemaining > 0)
                 {
                     // Subtract the elapsed time since the last frame from the remaining time
-                    timeRemaining -= Time.deltaTime;
+                    //timeRemaining -= Time.deltaTime;
                     // Update the UI Text element with the formatted time.
-                    if (timerText != null) timerText.text = FormatTime(timeRemaining);
+                    //if (timerText != null) timerText.text = FormatTime(timeRemaining);
+                    decreaseTimer(Time.deltaTime);
                 }
                 else
                 {
@@ -83,7 +84,7 @@ public class SimpleTimer : MonoBehaviour
     {
         StopTimer();
         timeRemaining = 0; // Ensure time doesn't go into negative values                           
-        if (GameManager.instance.score > 30)
+        if (GameManager.instance.score >= 30)
         {
             ResultPanel.SetActive(true);
         }
@@ -96,16 +97,19 @@ public class SimpleTimer : MonoBehaviour
 
     public void increaseTimer(float amountToAdd){
         timeRemaining += amountToAdd;
+        timerText.text = FormatTime(timeRemaining);
     }
 
     public void decreaseTimer(float amountToSubtract){
         if(amountToSubtract < timeRemaining)
         {
             timeRemaining -= amountToSubtract;
+            timerText.text = FormatTime(timeRemaining);
         }
         else
         {
             timeRemaining = 0;
+            timerText.text = FormatTime(timeRemaining);
             CalculatingStage();
         }
         
