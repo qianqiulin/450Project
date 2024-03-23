@@ -46,17 +46,7 @@ public class SimpleTimer : MonoBehaviour
                 else
                 {
                     // Stop the timer and reset the scene when the countdown reaches zero
-                    StopTimer();
-                    timeRemaining = 0; // Ensure time doesn't go into negative values                           
-                    if (GameManager.instance.score > 30)
-                    {
-                    ResultPanel.SetActive(true);
-                    }
-                    else if (GameManager.instance.score >0 && GameManager.instance.score < 30)
-                    {
-                    // If the score is under 30, show the fail panel
-                    FailPanel.SetActive(true);
-                    }
+                   playAgain();
                 }
             }
         }
@@ -86,7 +76,17 @@ public class SimpleTimer : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void playAgain(){
-        ResetScene();
+        StopTimer();
+        timeRemaining = 0; // Ensure time doesn't go into negative values                           
+        if (GameManager.instance.score > 30)
+        {
+            ResultPanel.SetActive(true);
+        }
+        else if (GameManager.instance.score > 0 && GameManager.instance.score < 30)
+        {
+            // If the score is under 30, show the fail panel
+            FailPanel.SetActive(true);
+        }
     }
 
     public void increaseTimer(float amountToAdd){
@@ -94,6 +94,15 @@ public class SimpleTimer : MonoBehaviour
     }
 
     public void decreaseTimer(float amountToSubtract){
-        timeRemaining -= amountToSubtract;
+        if(amountToSubtract < timeRemaining)
+        {
+            timeRemaining -= amountToSubtract;
+        }
+        else
+        {
+            timeRemaining = 0;
+            playAgain();
+        }
+        
     }
 }
