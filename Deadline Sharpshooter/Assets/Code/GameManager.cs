@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            UpdateScoreDisplay();
         }
         else if (instance != this)
         {
@@ -37,7 +38,7 @@ public class GameManager : MonoBehaviour
         timer.decreaseTimer(timePenaltyForGettingHit);
     }
 
-    void UpdateScoreDisplay()
+    public void UpdateScoreDisplay()
     {
         scoreText.text = "Score: " + score;
     }
