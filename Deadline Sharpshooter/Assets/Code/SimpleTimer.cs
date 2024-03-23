@@ -12,7 +12,9 @@ public class SimpleTimer : MonoBehaviour
     private float timeRemaining = 15f; // Start the countdown from 15 seconds
     private bool isRunning = false;
     private bool instructionsOnScreen = true;
-    public GameObject ResultPanel;
+    public GameObject ResultPanel;    
+    public GameObject FailPanel;
+
 
     void Start()
     {
@@ -46,7 +48,15 @@ public class SimpleTimer : MonoBehaviour
                     // Stop the timer and reset the scene when the countdown reaches zero
                     StopTimer();
                     timeRemaining = 0; // Ensure time doesn't go into negative values                           
+                    if (GameManager.instance.score > 30)
+                    {
                     ResultPanel.SetActive(true);
+                    }
+                    if (GameManager.instance.score < 30)
+                    {
+                    // If the score is under 30, show the fail panel
+                    FailPanel.SetActive(true);
+                    }
                 }
             }
         }

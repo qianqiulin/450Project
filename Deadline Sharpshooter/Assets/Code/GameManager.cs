@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public int timeRewardForDestroying;
     public int timePenaltyForGettingHit;
     public TMP_Text scoreText; // Reference to the text component
-    private int score = 0; // Initial score
+    public int score = 0; // Initial score
 
     void Awake()
     {
