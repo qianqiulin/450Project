@@ -79,7 +79,10 @@ public class SimpleTimer : MonoBehaviour
     public void playAgain(){
         ResetScene();
     }
-
+    public void nextScene()
+    {
+        SceneManager.LoadScene("boss");
+    }
     public void CalculatingStage()
     {
         StopTimer();
