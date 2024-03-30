@@ -14,6 +14,8 @@ public class ShooterController : MonoBehaviour
     public float reloadTime = 1f;
     private bool isReloading = false;
     public float cooldownTime = 3f;
+    public bool hasInfiniteAmmo = false;
+    public float infiniteAmmoTime = 3f;
 
     private float lastShootTime;
     SpriteRenderer sprite;
@@ -51,12 +53,14 @@ public class ShooterController : MonoBehaviour
 
       
         _rb.velocity = new Vector2(move * speed, _rb.velocity.y);
-        if (Input.GetKeyDown(KeyCode.Space) && currentBullets > 0 && !isReloading)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            Shoot();
-            if (currentBullets <= 0)
-            {
-                StartCoroutine(Cooldown());
+            if((currentBullets > 0 && !isReloading) || hasInfiniteAmmo){
+                Shoot();
+                if (currentBullets <= 0 && !hasInfiniteAmmo)
+                {
+                    StartCoroutine(Cooldown());
+                }
             }
         }
 
@@ -72,8 +76,10 @@ public class ShooterController : MonoBehaviour
             {
                 var bullet=Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
                 bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.up * bulletSpeed;
-        }
-            currentBullets--;
+            }
+            if(!hasInfiniteAmmo){
+                currentBullets--;
+            }
             lastShootTime = Time.time;
         }
 
@@ -93,7 +99,19 @@ public class ShooterController : MonoBehaviour
             isReloading = false;
             currentBullets = 1;
             lastShootTime = Time.time;
-    }
+        }
+
+        public void startInfiniteAmmo() {
+            StartCoroutine(InfiniteAmmo());
+        }
+
+        IEnumerator InfiniteAmmo() {
+            //print("Infinite Ammo");
+            hasInfiniteAmmo = true;
+            yield return new WaitForSeconds(infiniteAmmoTime);
+            //print("No more infinte ammo");
+            hasInfiniteAmmo = false;
+        }
 
     public int GetCurrentBullets()
     {

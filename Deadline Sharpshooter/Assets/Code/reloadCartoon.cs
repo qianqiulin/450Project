@@ -22,7 +22,7 @@ public class reloadCartoon : MonoBehaviour
 
             // Set the Animator parameter (assuming it's an integer parameter named "BulletCount")
             otherAnimator.SetInteger("bulletnumber", bullets);
-            print(bullets);
+            //print(bullets);
         }
     }
 }
