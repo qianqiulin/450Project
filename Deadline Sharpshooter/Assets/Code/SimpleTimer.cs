@@ -1,25 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // You can remove this if you're not using the old UI system.
 using TMPro;
-using UnityEngine.SceneManagement; // Add this for scene management.
+using UnityEngine.SceneManagement;
 
 public class SimpleTimer : MonoBehaviour
 {
     public TMP_Text timerText;
     public TMP_Text instructionsText;
-    private float timeRemaining = 15f; // Start the countdown from 15 seconds
+    private float timeRemaining = 20f; // Start the countdown from 15 seconds
     private bool isRunning = false;
     private bool instructionsOnScreen = true;
-    public GameObject ResultPanel;    
+    public GameObject ResultPanel;
     public GameObject FailPanel;
-
 
     void Start()
     {
-        // Initialize and start the countdown timer.
-
         StartTimer();
     }
 
@@ -27,36 +23,39 @@ public class SimpleTimer : MonoBehaviour
     {
         if (isRunning)
         {
-            if(instructionsOnScreen){
-                if(timeRemaining > 0){
-                    timeRemaining -= Time.deltaTime;
-                } else {
-                    instructionsOnScreen = false;
-                    Destroy(instructionsText);
-                    timeRemaining = 20f;
-                }
-            } else {
+            if (instructionsOnScreen)
+            {
                 if (timeRemaining > 0)
                 {
-                    // Subtract the elapsed time since the last frame from the remaining time
-                    //timeRemaining -= Time.deltaTime;
-                    // Update the UI Text element with the formatted time.
-                    //if (timerText != null) timerText.text = FormatTime(timeRemaining);
+                    timeRemaining -= Time.deltaTime;
+                    timerText.text = FormatTime(timeRemaining);
+                }
+            }
+            else
+            {
+                if (timeRemaining > 0)
+                {
                     decreaseTimer(Time.deltaTime);
                 }
                 else
                 {
-                    // Stop the timer and reset the scene when the countdown reaches zero
-                   CalculatingStage();
+                    CalculatingStage();
                 }
             }
         }
     }
 
+    public void StartGame()
+    {
+        instructionsOnScreen = false;
+        Destroy(instructionsText.gameObject); // Destroy the GameObject of instructionsText
+        timeRemaining = 20f; // Reset timeRemaining for the main timer
+        isRunning = true; // Start the timer
+    }
+
     public void StartTimer()
     {
-        isRunning = true;
-        timeRemaining = 5f; // Reset the countdown to 15 seconds whenever we start the timer
+        isRunning = false;
     }
 
     public void StopTimer()
@@ -76,7 +75,8 @@ public class SimpleTimer : MonoBehaviour
         // Load the current scene again
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-    public void playAgain(){
+    public void playAgain()
+    {
         ResetScene();
     }
     public void nextScene()
@@ -98,13 +98,15 @@ public class SimpleTimer : MonoBehaviour
         }
     }
 
-    public void increaseTimer(float amountToAdd){
+    public void increaseTimer(float amountToAdd)
+    {
         timeRemaining += amountToAdd;
         timerText.text = FormatTime(timeRemaining);
     }
 
-    public void decreaseTimer(float amountToSubtract){
-        if(amountToSubtract < timeRemaining)
+    public void decreaseTimer(float amountToSubtract)
+    {
+        if (amountToSubtract < timeRemaining)
         {
             timeRemaining -= amountToSubtract;
             timerText.text = FormatTime(timeRemaining);
@@ -115,6 +117,6 @@ public class SimpleTimer : MonoBehaviour
             timerText.text = FormatTime(timeRemaining);
             CalculatingStage();
         }
-        
+
     }
 }
