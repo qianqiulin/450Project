@@ -150,7 +150,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.68, y: 3.5}
+    oldSize: {x: 2.2333333, y: 2.9166667}
     newSize: {x: 2.68, y: 3.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -172,3 +172,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 3
+  fireworkPrefab: {fileID: 5910647052924664663, guid: 6025a584352abdd4882b015731ba1b25, type: 3}

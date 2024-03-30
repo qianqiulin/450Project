@@ -1,0 +1,3924 @@
+fileFormatVersion: 2
+guid: 654d51a61bd3e5b4ba4bffaf34d79494
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: firework_0
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 296
+        width: 103
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f3fd12276f11543bc4fc99d3cce657
+      internalID: 1618502136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 285
+        width: 107
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1323e241c757342b32553a198d08d7
+      internalID: -1952688841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 371
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c17213d6f256f40af133ee34c4bf5a
+      internalID: -1183698548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 374
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195dd7be86ef7834887f4cdaae468ea3
+      internalID: -406900593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 371
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51cacc10000ccd4f83d04995f74cf58
+      internalID: -1050006024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 373
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063468cea7c40e5458cba55bb1a03193
+      internalID: -1233662480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_6
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 292
+        width: 97
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df87914f2b131ab4782b164176778562
+      internalID: 709153199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 368
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a829166b080cf3241b9847a2ba3c666a
+      internalID: -380190460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_8
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 370
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49339aa3d9c896541ae523c36160ac1b
+      internalID: 246252802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_9
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 371
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578836ab91d978c46ba79fe7885e8db3
+      internalID: 390974830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 314
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6699c7b3178b2834d8fce7a84b40842b
+      internalID: -314231310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 356
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61becc44fefce924c8b0ed5ecc220862
+      internalID: 145594673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 356
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cdb6b981354034d8ef4ac4030a251d
+      internalID: -1266346231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 359
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70130eac18261af4185e850c9b337896
+      internalID: 901439950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 364
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7194fd91d2831d4d8e3ab828785b65c
+      internalID: 1827645785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_15
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 362
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb063e5e46227b47bb85de8b51a0363
+      internalID: 1975419212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 321
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e90a77db0f9fb4db229c34b2175269
+      internalID: -660524397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_17
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 348
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccd9fbaffcbd654b8a2d065c68a7c4a
+      internalID: 1792687193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_18
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 352
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ded072623e60e840a922c5e3b5fe503
+      internalID: 185840722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_19
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 352
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c0c2abd237fce469157765779d6b35
+      internalID: 1032321328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_20
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 349
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c87d8a4f9098d847abca87fdcc06ad5
+      internalID: 483656762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_21
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 351
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b976b71cafb72f14eb78455a9d192230
+      internalID: -2061079926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_22
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 351
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b802203813f184fb8ab2b9bcbd21d4
+      internalID: -1552057866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_23
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 305
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d511a92d55c2841a07a0247ed3c8b7
+      internalID: 1919496309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 339
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3d49f6b8f1392439e605d97514383e
+      internalID: 312771816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_25
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 336
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6326a33e34c9588409745248a8117dee
+      internalID: 1283432511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_26
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 336
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5f5ef3db4efb84c91648accc2cf9d7
+      internalID: -199728579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_27
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 330
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afbbed067aba6d40a30facfb560d6c6
+      internalID: -400297260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_28
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 340
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9278cee79c068af40bac9d60b83f4e2b
+      internalID: 1950801639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 333
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb387b85c61a754f87a3b616306bbd7
+      internalID: 1819856523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_30
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 327
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb78b635b6b61c41ae71d6b0f53dfc0
+      internalID: 1996208322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 333
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b4d6858b91acd4eacbac3203cd19ae
+      internalID: 649470771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_32
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 332
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc9f3b2567489d4580a7356c8e14037
+      internalID: -648332950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_33
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 334
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e141b115b620174588bab0e13788793
+      internalID: 1511663605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_34
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 321
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d1f1752104afb4a96cc6e91dba28de
+      internalID: -207591833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_35
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 322
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659bdf89de5a69b449633c7d46d60312
+      internalID: 378943427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_36
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 325
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5ea39f35c25a8459344441abc89e94
+      internalID: -245760598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_37
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 325
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960af5c3135ebdb4fb82946102960352
+      internalID: -1939943537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_38
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 323
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d506b219a66f60743b23872305224d8c
+      internalID: -2025951132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_39
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 325
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959fc1ab971daea449a4b1a877c19f83
+      internalID: -1739139441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_40
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 323
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983cad7f826433f4a86b939e3a352bc9
+      internalID: -910574796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_41
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 326
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9412a7b4c9f50bb45aef90b9c79c857f
+      internalID: -89550708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_42
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 307
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3518063cfe4d79d45a55ae9be40f81d4
+      internalID: 832814839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_43
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 322
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aade44ebcb2b384080fdcea3e5e5a32
+      internalID: 1755116686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_44
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 313
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c9ad1a1b212b641ba4db8bcabc9f89
+      internalID: 2029033206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_45
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 312
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e0e8b65ce291140ac731a5c6064bd2
+      internalID: 1333415070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_46
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 306
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a63deb4a3e83034ab2b109dae3536b9
+      internalID: -1556736360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_47
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 314
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a43b91fccd4bff46ac278f3bc13893e
+      internalID: 1396280580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_48
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 307
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d5e0d39f403184cbe841f9287b96a0
+      internalID: -1510261420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_49
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 305
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6785b85aa39bbbc4fb6307b438317574
+      internalID: 1238819788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_50
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 305
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b8b3d6df80e15418958be7ea61fc4b
+      internalID: 1913205897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_51
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 303
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83eb603f9c7f7aa458734e73aa18346b
+      internalID: 1638421842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_52
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 302
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a57d878be5d84248a9e6d77d86d7b31
+      internalID: 263360978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_53
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 170
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cade28747a833104a8c976d2389741b6
+      internalID: 877727314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_54
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 176
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca12f00b5e0568f4a8f21df73708dd13
+      internalID: 1998372784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_55
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 244
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b85a538aea7b40a5e8533a8c9de28
+      internalID: -2031246494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_56
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 239
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88bd3a5a5ab5f6468d182919dfc887d
+      internalID: -2075716430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_57
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 245
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50a9ad5334bd1645868fae5aeb16187
+      internalID: -402047474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_58
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 246
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516c3992e1950d44085d1765dacab3ec
+      internalID: 994847818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 245
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34005c19d4a5fa34fa8fa371371d4311
+      internalID: -931177126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_60
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 176
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a15c79caacdb6844b89bfb1256ebd4c
+      internalID: 2137529865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_61
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 241
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcad5f13a0916424b8dbf9e30595af01
+      internalID: 852630482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_62
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 243
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571fbb2f21088f649a6302bdd758279e
+      internalID: -130540245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_63
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 243
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68782ace6b699db45a5c4b4fda99c2a9
+      internalID: -801778252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_64
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 235
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab2f3bfdee7f5345887516456050a0c
+      internalID: -781637732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_65
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 187
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b2a84c882c7d445852b20b3deff1ad
+      internalID: -841272100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_66
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 228
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e8f21eeff08664a8f0a40676d67432
+      internalID: 43279770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_67
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 237
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49a751f9a1dc3d40801fb79ae7a45d1
+      internalID: -1946516279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_68
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 232
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8bbf7a1ecfe604ab94b96412050bf0
+      internalID: -1738262605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_69
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 232
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bcd595e2bc98a4fa51e550d9958316
+      internalID: -853720126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_70
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 193
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70ad1fb1229fc04e88049f28a34fbe6
+      internalID: 948553084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_71
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 223
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf296a5768a1244b875022d58f554c7
+      internalID: 2121626605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_72
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 219
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b7c4fe4a3bcaa4dbe6cb0d51d5b81c
+      internalID: -833796286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_73
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 221
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785755d93f7f0a54b92616d54c9f768d
+      internalID: 2103013811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_74
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 224
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39521fecd7ab5745a37afe46bb0535d
+      internalID: -502277512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_75
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 221
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b40e49e745b2c4468dc578fc1ad283c
+      internalID: -750857839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_76
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 223
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f347275e80e064692b11ce9f531421
+      internalID: -802740941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_77
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 219
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76aa09bb2f782d40976bb86907dfbac
+      internalID: 323577115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_78
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 222
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98b69f4cc531554f836ae32e11d304b
+      internalID: -2021496085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_79
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 211
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b853bb6e38b494ca8aa4aa34685b80
+      internalID: -1779377761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_80
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 220
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf1cfacaeadd8048847f6394afc8953
+      internalID: -231332073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_81
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 182
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f21e1ceea7fad4ea19577ca745046a
+      internalID: 875336851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_82
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 214
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80411ecf2dfee344998555b377daba15
+      internalID: -1584884200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_83
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 210
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605e83affb98d6241b05419a304589a2
+      internalID: -505947489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_84
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 212
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4ec88e2b89c3c44906119d49db1f62
+      internalID: 1692897145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_85
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 205
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ed2c964800a84448cf4f7aabb3eaea
+      internalID: 453696698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_86
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 208
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345e4dfae2a1351468d2e56d0cd42050
+      internalID: 421275351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_87
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 195
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ab0e38a0f483548a67c17f19aeb1a9
+      internalID: 320996072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_88
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 194
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425b049196d379642a30b11a12aa44aa
+      internalID: -758957858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_89
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 198
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee67ba8cfd93f9e4db2da9ceb8e7997b
+      internalID: 1681611235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_90
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 192
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859100f8b5b08f947a74529d044affbe
+      internalID: -2115951072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_91
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 194
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7232633b399c74db4220739296937a
+      internalID: 786728651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_92
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 198
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ec9307985877343b6971e7a30d76f8
+      internalID: 1813987735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_93
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 198
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a98587f7fc1574785b885f84df438b
+      internalID: -1047714699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_94
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 195
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acefa882ffa722f4c95f0cfb602b8b67
+      internalID: -1950918841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_95
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 198
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b9ff86ad24a614c8d0aa9e7c3104ac
+      internalID: -1607780698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_96
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 194
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819f4f470a0f28145a7871437e82523f
+      internalID: -1490479586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_97
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 185
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a682b3b8820862c4a98cbb0a5d9b1e4c
+      internalID: -818475091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_98
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 180
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4393061edfa27b441a12f774fbb3cb11
+      internalID: 1902326251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_99
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 184
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fe113483d842c4b8d20867f6e9f010
+      internalID: 1215300537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_100
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 189
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bfe5b0935c92140bf4c2864f12bffc
+      internalID: 1216492168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_101
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 186
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b694333e78c37b64c8e1295da243c401
+      internalID: -1798506274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_102
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 168
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47699cabadf67f24fa5ec9e5c67f8094
+      internalID: 2124917785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_103
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 177
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89c7d456bdb00d469a1ef2072646c64
+      internalID: 1739136057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_104
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 180
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6b8a8836bf11140ad92a9b90d37d95
+      internalID: 1238124258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_105
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 183
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9289efdbdf3af62419996760bce8f6a1
+      internalID: 1726485070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_106
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 178
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674216a651156a34298e05c4b174e3f0
+      internalID: -1155282878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_107
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 173
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36769a2b23009314c9b61e9a999a0a09
+      internalID: 102447440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_108
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 171
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9683a9b94cd5834190e91cbfe615c6f
+      internalID: -1809596628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_109
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 174
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bcbe235d0f0b942a8273505048b202
+      internalID: -703210869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_110
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 169
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e77ecc91ce7afe4ea7ca0f9d353d767
+      internalID: 358673751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_111
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 169
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d918fa2f97787474e9b5f9e75404b57f
+      internalID: 1997059395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_112
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 175
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eb14cd1e9fda14f98350a9f8487895
+      internalID: 370632606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_113
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 174
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9731fbcae70f04282f0b7dd36fbd8e
+      internalID: -1110189711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_114
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 174
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7d11755c400cc418d96b1cd6f16ec0
+      internalID: 1729519363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_115
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 176
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82ff2233bc2e1e498be402d78490d8a
+      internalID: 1836439522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_116
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 38
+        width: 103
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8088d24fbe40d844b9c3b02301e6d20d
+      internalID: 760729756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_117
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 43
+        width: 95
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f520c3b4fcce35143a9816c20453a6fc
+      internalID: -1653608253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_118
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 113
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95384ccf3d41bc744b65788332aebacb
+      internalID: -1692648383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_119
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 108
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5648231652e3484597f7b9ec33b1134
+      internalID: -422907577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_120
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 114
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de17e767df35654ab81dba07e295cbb
+      internalID: 1135737333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_121
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 112
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f082bffa03bc449b2dc99ec8023bf3
+      internalID: -556205640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_122
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 114
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c44fd555cd96441a8e10c56c870d8d
+      internalID: -1511060406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_123
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 51
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3551812bb03c1a0429d0066e29f277ba
+      internalID: 716751124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_124
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 111
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96305159ed9822f46ae63b81d9ac60d1
+      internalID: -1542851704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_125
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 100
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1d45e87c7f643448621194f6530a3a
+      internalID: -73983008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_126
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 112
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2ee1aba34647742979ff5d3471d7a8
+      internalID: -878864743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_127
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 113
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b557836c7feb631459a25e1a43bce2e6
+      internalID: -712510963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_128
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 56
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be16f2b485e30e4698e73a3753e92fd
+      internalID: 75756995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_129
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 98
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacb5095ee5f82e4cb5bd12cad9d6265
+      internalID: 1316736449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_130
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 101
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0667cb94f205e64b8aa38f6a3ec0570
+      internalID: 1787074480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_131
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 101
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b44877da80ff24db79b5a45b15f776
+      internalID: -51048695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_132
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 104
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73edee2ab99fa5044a971ee4c4a60b8d
+      internalID: 606551016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_133
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 63
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f808045bcf40234d8334c11fb448132
+      internalID: -1263783617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_134
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 91
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5451d8d6ac563e44ba300ce3e8bf505a
+      internalID: 1330977946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_135
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 88
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff99301065f8aaa428990a8c55e546d6
+      internalID: -1549029550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_136
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 91
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50e2835f78e15e4fa089f07176f6760
+      internalID: 21303219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_137
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 93
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a278c4688cb9946b74de34e60fc0a2
+      internalID: 833134436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_138
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 93
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3abaf920b559564a80cb168fc856f92
+      internalID: -872062335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_139
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 89
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f50ccc68ad35e6428e1ba738d47aee8
+      internalID: 344962602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_140
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 76
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddd23fced2427443b4be584d66d78b3
+      internalID: 7898452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_141
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 48
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb32b43737a87e4f9916fef3525d9ae
+      internalID: 1293476321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_142
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 81
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e818198d601a148ad138aacbdae41e
+      internalID: 1070380658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_143
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 81
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e63996bd6815414eb2de10f3adab548
+      internalID: 19810181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_144
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 79
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ec2042ffeec2e4eb200e3d95040a1e
+      internalID: 370366833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_145
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 83
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309c2cb1334dd2244b0d0eb3be3a6a76
+      internalID: 1150800795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_146
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 74
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696115c0730db7742ae3665fae137cb6
+      internalID: -656729055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_147
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 78
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d926dfbec150746816d20d92d40e23
+      internalID: -1870269615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_148
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 74
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc1c5d2f265f24468d2c700012bc8f4
+      internalID: 1533424025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_149
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 74
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873997e6ea6f86045baa12e556147642
+      internalID: -1548276758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_150
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 67
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7c0529be256294f833447f189bcd6d
+      internalID: -1588972043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_151
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 70
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396f8fed2f6d4eb43b251ecf6473869b
+      internalID: -317519988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_152
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 72
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e438c2ff0049d46830a15d636e6407
+      internalID: -99942533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_153
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 67
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b2cd56e539b064499cb7a81401831f
+      internalID: -1773207926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_154
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 69
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2663e1ef1e2001148a7de1c4ca9b4804
+      internalID: -1675712985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_155
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 62
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab36085d8a1c0cb4cbcbf732559ef8b2
+      internalID: 1247539331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_156
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 67
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69574731b480a0c48aa76ab23199df3e
+      internalID: -54435274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_157
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8dfe17c70113645a9f457922d0150e
+      internalID: -617761168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_158
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 65
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda9f0d06863e5748840c85d84746486
+      internalID: -1317008416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_159
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 65
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72b9c0231ba5b340857cc3995c6057c
+      internalID: -1563831186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_160
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 59
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84429a8956142674981fe1f85b7536a6
+      internalID: -1757129387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_161
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 56
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b3dc2c665f3db45b27259dda54c113
+      internalID: -1395516422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_162
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 50
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4045bf2860978e44abd681a7cd0ba0e8
+      internalID: -724529236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_163
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 47
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5d941ab1350dd47a78f02627c6ac95
+      internalID: 831989861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_164
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 49
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe94336453923743b41d3526d40f706
+      internalID: -1725576002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_165
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 48
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f934da70949bceb4c84e001b4104ceae
+      internalID: 1324863250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_166
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 47
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f538df22636ad489cb5128054557d4
+      internalID: 797086378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_167
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 45
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d31a1f69c09d774b867cba259ecfee6
+      internalID: 2120074927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_168
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 38
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ed8ddc20e2fe546855a8251d53ce6b
+      internalID: 72109898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_169
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 44
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673b26644393d7944b90d1e1e5356dcf
+      internalID: -718155232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_170
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93248c7bde9e8a340aa98769a28f4935
+      internalID: -2513278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firework_171
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30093aa1475d3a64291baf6b748f6856
+      internalID: -1684875098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      firework_0: 1618502136
+      firework_1: -1952688841
+      firework_10: -314231310
+      firework_100: 1216492168
+      firework_101: -1798506274
+      firework_102: 2124917785
+      firework_103: 1739136057
+      firework_104: 1238124258
+      firework_105: 1726485070
+      firework_106: -1155282878
+      firework_107: 102447440
+      firework_108: -1809596628
+      firework_109: -703210869
+      firework_11: 145594673
+      firework_110: 358673751
+      firework_111: 1997059395
+      firework_112: 370632606
+      firework_113: -1110189711
+      firework_114: 1729519363
+      firework_115: 1836439522
+      firework_116: 760729756
+      firework_117: -1653608253
+      firework_118: -1692648383
+      firework_119: -422907577
+      firework_12: -1266346231
+      firework_120: 1135737333
+      firework_121: -556205640
+      firework_122: -1511060406
+      firework_123: 716751124
+      firework_124: -1542851704
+      firework_125: -73983008
+      firework_126: -878864743
+      firework_127: -712510963
+      firework_128: 75756995
+      firework_129: 1316736449
+      firework_13: 901439950
+      firework_130: 1787074480
+      firework_131: -51048695
+      firework_132: 606551016
+      firework_133: -1263783617
+      firework_134: 1330977946
+      firework_135: -1549029550
+      firework_136: 21303219
+      firework_137: 833134436
+      firework_138: -872062335
+      firework_139: 344962602
+      firework_14: 1827645785
+      firework_140: 7898452
+      firework_141: 1293476321
+      firework_142: 1070380658
+      firework_143: 19810181
+      firework_144: 370366833
+      firework_145: 1150800795
+      firework_146: -656729055
+      firework_147: -1870269615
+      firework_148: 1533424025
+      firework_149: -1548276758
+      firework_15: 1975419212
+      firework_150: -1588972043
+      firework_151: -317519988
+      firework_152: -99942533
+      firework_153: -1773207926
+      firework_154: -1675712985
+      firework_155: 1247539331
+      firework_156: -54435274
+      firework_157: -617761168
+      firework_158: -1317008416
+      firework_159: -1563831186
+      firework_16: -660524397
+      firework_160: -1757129387
+      firework_161: -1395516422
+      firework_162: -724529236
+      firework_163: 831989861
+      firework_164: -1725576002
+      firework_165: 1324863250
+      firework_166: 797086378
+      firework_167: 2120074927
+      firework_168: 72109898
+      firework_169: -718155232
+      firework_17: 1792687193
+      firework_170: -2513278
+      firework_171: -1684875098
+      firework_18: 185840722
+      firework_19: 1032321328
+      firework_2: -1183698548
+      firework_20: 483656762
+      firework_21: -2061079926
+      firework_22: -1552057866
+      firework_23: 1919496309
+      firework_24: 312771816
+      firework_25: 1283432511
+      firework_26: -199728579
+      firework_27: -400297260
+      firework_28: 1950801639
+      firework_29: 1819856523
+      firework_3: -406900593
+      firework_30: 1996208322
+      firework_31: 649470771
+      firework_32: -648332950
+      firework_33: 1511663605
+      firework_34: -207591833
+      firework_35: 378943427
+      firework_36: -245760598
+      firework_37: -1939943537
+      firework_38: -2025951132
+      firework_39: -1739139441
+      firework_4: -1050006024
+      firework_40: -910574796
+      firework_41: -89550708
+      firework_42: 832814839
+      firework_43: 1755116686
+      firework_44: 2029033206
+      firework_45: 1333415070
+      firework_46: -1556736360
+      firework_47: 1396280580
+      firework_48: -1510261420
+      firework_49: 1238819788
+      firework_5: -1233662480
+      firework_50: 1913205897
+      firework_51: 1638421842
+      firework_52: 263360978
+      firework_53: 877727314
+      firework_54: 1998372784
+      firework_55: -2031246494
+      firework_56: -2075716430
+      firework_57: -402047474
+      firework_58: 994847818
+      firework_59: -931177126
+      firework_6: 709153199
+      firework_60: 2137529865
+      firework_61: 852630482
+      firework_62: -130540245
+      firework_63: -801778252
+      firework_64: -781637732
+      firework_65: -841272100
+      firework_66: 43279770
+      firework_67: -1946516279
+      firework_68: -1738262605
+      firework_69: -853720126
+      firework_7: -380190460
+      firework_70: 948553084
+      firework_71: 2121626605
+      firework_72: -833796286
+      firework_73: 2103013811
+      firework_74: -502277512
+      firework_75: -750857839
+      firework_76: -802740941
+      firework_77: 323577115
+      firework_78: -2021496085
+      firework_79: -1779377761
+      firework_8: 246252802
+      firework_80: -231332073
+      firework_81: 875336851
+      firework_82: -1584884200
+      firework_83: -505947489
+      firework_84: 1692897145
+      firework_85: 453696698
+      firework_86: 421275351
+      firework_87: 320996072
+      firework_88: -758957858
+      firework_89: 1681611235
+      firework_9: 390974830
+      firework_90: -2115951072
+      firework_91: 786728651
+      firework_92: 1813987735
+      firework_93: -1047714699
+      firework_94: -1950918841
+      firework_95: -1607780698
+      firework_96: -1490479586
+      firework_97: -818475091
+      firework_98: 1902326251
+      firework_99: 1215300537
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
