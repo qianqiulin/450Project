@@ -13,6 +13,11 @@ public class GameManager : MonoBehaviour
     public TMP_Text scoreText; // Reference to the text component
     public int score = 0; // Initial score
 
+    // Powerup spawning
+    public Transform[] spawnPoints;
+    public GameObject[] powerupPrefabs;
+    public float delayBetweenPowerupSpawns = 10f;
+
     void Awake()
     {
         // Initialize the singleton instance
@@ -41,6 +46,27 @@ public class GameManager : MonoBehaviour
     public void UpdateScoreDisplay()
     {
         scoreText.text = "Score: " + score;
+    }
+
+    public void beginPowerupSpawnTimer() {
+        StartCoroutine("PowerupSpawnTimer");
+    }
+
+    void SpawnPowerup() {
+        int randomSpawnIndex = Random.Range(0, spawnPoints.Length);
+        Transform randomSpawnPoint = spawnPoints[randomSpawnIndex];
+        int randomPowerupIndex = Random.Range(0, powerupPrefabs.Length);
+        GameObject randomPowerupPrefab = powerupPrefabs[randomPowerupIndex];
+
+        Instantiate(randomPowerupPrefab, randomSpawnPoint.position, Quaternion.identity);
+    }
+
+    IEnumerator PowerupSpawnTimer() {
+        yield return new WaitForSeconds(delayBetweenPowerupSpawns);
+
+        SpawnPowerup();
+
+        StartCoroutine("PowerupSpawnTimer");
     }
 }
 

@@ -101,6 +101,15 @@ public class ShooterController : MonoBehaviour
             lastShootTime = Time.time;
         }
 
+        // Infinite ammo code
+
+        void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.GetComponent<AmmoPowerup>()) {
+            startInfiniteAmmo();
+            Destroy(other.gameObject);
+        }
+    }
+
         public void startInfiniteAmmo() {
             StartCoroutine(InfiniteAmmo());
         }
