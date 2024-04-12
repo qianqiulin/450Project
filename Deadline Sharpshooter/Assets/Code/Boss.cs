@@ -1,24 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
-    public float speed = 5.0f; // Speed of movement
-    private bool movingRight = true; // Track direction of movement
-    private float directionChangeCooldown = 0f; // Cooldown time before the next direction change is allowed
-    public float directionChangeInterval = 2f; // Minimum time between direction changes
-    public int maxHP = 5; // Maximum health points of the boss
-    private int currentHP; // Current health points of the boss
+    public float speed = 5.0f;
+    public float increasedSpeed = 7.5f;
+    public float verticalMovementRange = 1.5f;
+    private bool movingRight = true;
+    private float directionChangeCooldown = 0f;
+    public float directionChangeInterval = 2f;
+    public int maxHP = 5;
+    private int currentHP;
+    public Image imageHealthBar;
+    private float originalY;
+    private bool isEnraged = false;
 
     void Start()
     {
-        currentHP = maxHP; // Initialize the boss's health when the game starts
+        currentHP = maxHP;
+        imageHealthBar.fillAmount = 1.0f;
+        originalY = transform.position.y;
     }
-    // Update is called once per frame
+
     void Update()
     {
-        // Move the boss in the current direction
+        HandleMovement();
+
+        if (currentHP <= maxHP * 0.5f && !isEnraged)
+        {
+            isEnraged = true;
+            speed = increasedSpeed;
+        }
+
+        if (isEnraged)
+        {
+            float verticalMovement = Mathf.Sin(Time.time * 2) * verticalMovementRange;
+            transform.position = new Vector2(transform.position.x, originalY + verticalMovement);
+        }
+    }
+
+    private void HandleMovement()
+    {
         if (movingRight)
         {
             transform.position += Vector3.right * speed * Time.deltaTime;
@@ -28,39 +52,40 @@ public class Boss : MonoBehaviour
             transform.position += Vector3.left * speed * Time.deltaTime;
         }
 
-        // Check if the boss is still within the screen bounds
         Vector3 viewportPosition = Camera.main.WorldToViewportPoint(transform.position);
         if ((viewportPosition.x > 0.95f || viewportPosition.x < 0.05f) && directionChangeCooldown <= 0f)
         {
             movingRight = !movingRight;
-            directionChangeCooldown = directionChangeInterval; // Reset cooldown
+            directionChangeCooldown = directionChangeInterval;
         }
 
-        // Randomly decide if the boss should change direction, respecting the cooldown
-        if (Random.Range(0, 100) < 2 && directionChangeCooldown <= 0f) // Adjust the '2' here to change randomness
-        {
-            movingRight = !movingRight;
-            directionChangeCooldown = directionChangeInterval; // Reset cooldown
-        }
-
-        // Update the cooldown timer
         if (directionChangeCooldown > 0)
         {
             directionChangeCooldown -= Time.deltaTime;
         }
     }
-        public void TakeDamage(int damage)
-    {
-        currentHP -= damage; // Reduce the boss's HP
 
-        // Check if the boss's HP has dropped to 0 or below
+    public void TakeDamage(int damage)
+    {
+        currentHP -= damage;
+        imageHealthBar.fillAmount = (float)currentHP / maxHP;
+
         if (currentHP <= 0)
         {
-            Die();        
+            Die();
         }
     }
-        void Die()
+
+    void Die()
     {
-        Destroy(gameObject); // Destroy the boss game object
+        Destroy(gameObject);
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.GetComponent<Bullet>())
+        {
+            TakeDamage(1);
+        }
     }
 }
