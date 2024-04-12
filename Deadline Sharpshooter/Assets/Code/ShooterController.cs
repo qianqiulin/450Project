@@ -16,10 +16,25 @@ public class ShooterController : MonoBehaviour
     public float cooldownTime = 3f;
     public bool hasInfiniteAmmo = false;
     public float infiniteAmmoTime = 3f;
+    public bool isPaused;
+    public static ShooterController instance;
+    
 
     private float lastShootTime;
     SpriteRenderer sprite;
     Animator animator;
+    
+        void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -67,6 +82,12 @@ public class ShooterController : MonoBehaviour
         if (!isReloading && currentBullets < maxBullets && Time.time - lastShootTime >= reloadTime)
         {
             Reload();
+        }
+            if(Input.GetKeyDown(KeyCode.Escape)){
+        Menu.instance.Show();
+    }
+        if(isPaused){
+            return;
         }
        
         }
@@ -126,4 +147,5 @@ public class ShooterController : MonoBehaviour
     {
         return currentBullets;
     }
+
 }
