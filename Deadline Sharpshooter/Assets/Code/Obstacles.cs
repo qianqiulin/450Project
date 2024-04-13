@@ -31,11 +31,13 @@ public class Obstacles : MonoBehaviour
                 );
             Destroy(explosion, 0.25f);
             Destroy(gameObject);
+            print("Destroy");
         }
                 else if (other.gameObject.CompareTag("Bullet")) // Check if the obstacle collides with a bullet
         {
             // Play the hit sound through the SoundManager
             SoundManager.instance.PlaySoundHit();
+            Destroy(gameObject);
         }
     }
 }

@@ -11,11 +11,12 @@ public class Boss : MonoBehaviour
     private bool movingRight = true;
     private float directionChangeCooldown = 0f;
     public float directionChangeInterval = 2f;
-    public int maxHP = 5;
+    public int maxHP = 50;
     private int currentHP;
     public Image imageHealthBar;
     private float originalY;
     private bool isEnraged = false;
+    public GameObject diplomaStage;
 
     void Start()
     {
@@ -79,6 +80,8 @@ public class Boss : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
+        diplomaStage.SetActive(true);
+        Time.timeScale = true ? 0 : 1;
     }
 
     void OnCollisionEnter2D(Collision2D other)
