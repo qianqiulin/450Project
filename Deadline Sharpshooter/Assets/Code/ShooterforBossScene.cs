@@ -18,7 +18,10 @@ public class ShooterforBossScene : MonoBehaviour
     public float infiniteAmmoTime = 3f;
     public bool isPaused;
     public static ShooterforBossScene instance;
-
+    public int maxHealth = 50;
+    private int currentHealth;
+    public Image imageHealthBar;
+    public GameObject FailuerStage;
 
     private float lastShootTime;
     SpriteRenderer sprite;
@@ -41,6 +44,9 @@ public class ShooterforBossScene : MonoBehaviour
 
         sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        currentHealth = maxHealth;
+        imageHealthBar.fillAmount = 1.0f;
+        TakeDamage(25);
     }
     void FixedUpdate()
     {
@@ -157,5 +163,20 @@ public class ShooterforBossScene : MonoBehaviour
     public int GetCurrentBullets()
     {
         return currentBullets;
+    }
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        imageHealthBar.fillAmount = (float)currentHealth / maxHealth;
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+    private void Die()
+    {
+        Time.timeScale = true ? 0 : 1;
+        FailuerStage.SetActive(true);
     }
 }
