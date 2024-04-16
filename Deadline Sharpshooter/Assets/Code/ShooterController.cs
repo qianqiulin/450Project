@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class ShooterController : MonoBehaviour
 {
     Rigidbody2D _rb;
@@ -18,7 +18,10 @@ public class ShooterController : MonoBehaviour
     public float infiniteAmmoTime = 3f;
     public bool isPaused;
     public static ShooterController instance;
-    
+    public int maxHealth = 50;
+    private int currentHealth;
+    public Image imageHealthBar;
+    public GameObject FailuerStage;
 
     private float lastShootTime;
     SpriteRenderer sprite;
@@ -41,6 +44,9 @@ public class ShooterController : MonoBehaviour
 
         sprite=GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        currentHealth = maxHealth;
+        imageHealthBar.fillAmount = 1.0f;
+        TakeDamage(25);
     }
     void FixedUpdate(){
         animator.SetFloat("Speed",_rb.velocity.magnitude);
@@ -54,6 +60,7 @@ public class ShooterController : MonoBehaviour
 
     void Update()
     {
+        
         float move = 0f;
         if (Input.GetKey(KeyCode.LeftArrow))
         {
@@ -93,6 +100,7 @@ public class ShooterController : MonoBehaviour
         }
     void Shoot()
         {
+            TakeDamage(50);
             if (bulletPrefab != null && bulletSpawnPoint != null)
             {
                 var bullet=Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
@@ -147,5 +155,19 @@ public class ShooterController : MonoBehaviour
     {
         return currentBullets;
     }
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        imageHealthBar.fillAmount = (float)currentHealth / maxHealth;
 
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+    private void Die()
+    {
+        Time.timeScale = true ? 0 : 1;
+        FailuerStage.SetActive(true);
+    }
 }

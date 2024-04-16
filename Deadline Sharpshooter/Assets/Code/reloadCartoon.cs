@@ -12,7 +12,7 @@ public class reloadCartoon : MonoBehaviour
         otherAnimator = GetComponent<Animator>();
         print("reloadCartoonworkings");
     }
-
+    //nothing here
     void Update()
     {
         if (shooterController != null)
