@@ -73,7 +73,7 @@ public class SimpleTimer : MonoBehaviour
     private void ResetScene()
     {
         // Load the current scene again
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Main");
     }
     public void playAgain()
     {
