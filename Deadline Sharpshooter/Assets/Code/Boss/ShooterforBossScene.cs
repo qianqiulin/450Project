@@ -156,7 +156,7 @@ public class ShooterforBossScene : MonoBehaviour
         {
             print("hit obstacles");
             Destroy(other.gameObject);
-            TakeDamage(2);
+            TakeDamage(1);
         }
     }
 
