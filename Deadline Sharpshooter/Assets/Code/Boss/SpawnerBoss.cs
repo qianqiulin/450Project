@@ -8,7 +8,7 @@ public class SpawnerBoss : MonoBehaviour
     private GameObject[] enemies;
     private float[] arrPosX = { -7f, -3.5f, 0, 3.5f, 7f };
     [SerializeField]
-    private float spawnInterval = 1.5f;
+    private float spawnInterval = 100f;
     void Start()
     {
         StartEnemyRoutine();
@@ -31,7 +31,7 @@ public class SpawnerBoss : MonoBehaviour
                 int index = Random.Range(0, enemies.Length);
                 SpawnEnemy(posX, index);
             }
-            yield return new WaitForSeconds(spawnInterval);
+            yield return new WaitForSeconds(6f);
         }
     }
 
