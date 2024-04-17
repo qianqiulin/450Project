@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class EnemyBoss : MonoBehaviour
 {
-    private float moveSpeed =7f;
-    private float minY =-7; // makes obstacle disappear
+    private float moveSpeed = 7f;
+    private float minY = -7;  // makes obstacle disappear
+
     void Update()
     {
+        if (BossGameManager.instance.gameStarted)
+        {
+            // Your obstacle spawning logic here
+            SpawnObstacles();
+        }
+    }
+
+    void SpawnObstacles()
+    {
         transform.position += Vector3.down * moveSpeed * Time.deltaTime;
-        if(transform.position.y <minY){
+        if (transform.position.y < minY)
+        {
             Destroy(gameObject);
         }
     }
+
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.GetComponent<Bullet>())
@@ -22,7 +34,6 @@ public class EnemyBoss : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Boundary")) // Check if the obstacle collides with a bullet
         {
-            
             Destroy(gameObject);
         }
     }

@@ -32,6 +32,8 @@ public class ShooterforBossScene : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            DontDestroyOnLoad(gameObject);
+
         }
         else if (instance != this)
         {
@@ -94,7 +96,14 @@ public class ShooterforBossScene : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Menu.instance.Show();
+            if (BossMenu.instance != null)
+            {
+                BossMenu.instance.Show();
+            }
+            else
+            {
+                Debug.LogError("Menu instance is null");
+            }
         }
         if (isPaused)
         {
@@ -143,7 +152,8 @@ public class ShooterforBossScene : MonoBehaviour
             startInfiniteAmmo();
             Destroy(other.gameObject);
         }
-        if (other.gameObject.GetComponent<EnemyBoss>()) {
+        if (other.gameObject.GetComponent<EnemyBoss>())
+        {
             print("hit obstacles");
             Destroy(other.gameObject);
             TakeDamage(2);

@@ -24,8 +24,9 @@ public class Boss : MonoBehaviour
         imageHealthBar.fillAmount = 1.0f;
         originalY = transform.position.y;
     }
-
-    void Update()
+void Update()
+{
+    if (BossGameManager.instance.gameStarted)
     {
         HandleMovement();
 
@@ -38,9 +39,10 @@ public class Boss : MonoBehaviour
         if (isEnraged)
         {
             float verticalMovement = Mathf.Sin(Time.time * 2) * verticalMovementRange;
-            transform.position = new Vector2(transform.position.x, originalY + verticalMovement);
+            transform.position = new Vector2(transform.position.x, originalY + verticalMovement); // Possible line 30
         }
     }
+}
 
     private void HandleMovement()
     {
