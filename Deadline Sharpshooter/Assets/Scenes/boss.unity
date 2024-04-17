@@ -759,6 +759,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5814978219806246460, guid: d1b169d0aa13142448822367e7e61c0f, type: 3}
   m_PrefabInstance: {fileID: 1553867190}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &355791740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6294434275310445234, guid: dcb3502f96533404d972e4378dc3cb0e, type: 3}
+  m_PrefabInstance: {fileID: 1291785437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &355791745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355791740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c50aa8ad6afb8643be855158a283423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooterController: {fileID: 2072378137}
 --- !u!1 &432091888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,10 +1559,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ReloadCartoon
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4680078874586936235, guid: dcb3502f96533404d972e4378dc3cb0e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6294434275310445234, guid: dcb3502f96533404d972e4378dc3cb0e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 355791745}
   m_SourcePrefab: {fileID: 100100000, guid: dcb3502f96533404d972e4378dc3cb0e, type: 3}
 --- !u!1001 &1442879766
 PrefabInstance:
