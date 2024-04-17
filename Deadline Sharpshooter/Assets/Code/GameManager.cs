@@ -30,6 +30,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        scoreText.gameObject.SetActive(false); // Make sure the score is not visible initially
+        UpdateScoreDisplay();
     }
 
     public void AddScore(int amount)

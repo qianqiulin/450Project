@@ -149,5 +149,4 @@ public class ShooterController : MonoBehaviour
     {
         return currentBullets;
     }
-    
 }

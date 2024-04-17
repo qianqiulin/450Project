@@ -51,6 +51,8 @@ public class SimpleTimer : MonoBehaviour
         Destroy(instructionsText.gameObject); // Destroy the GameObject of instructionsText
         timeRemaining = 20f; // Reset timeRemaining for the main timer
         isRunning = true; // Start the timer
+        GameManager.instance.scoreText.gameObject.SetActive(true); // Make the score visible
+
     }
 
     public void StartTimer()
