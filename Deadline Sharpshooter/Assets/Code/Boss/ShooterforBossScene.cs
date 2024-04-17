@@ -46,7 +46,6 @@ public class ShooterforBossScene : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         imageHealthBar.fillAmount = 1.0f;
-        TakeDamage(25);
     }
     void FixedUpdate()
     {
@@ -143,6 +142,11 @@ public class ShooterforBossScene : MonoBehaviour
         {
             startInfiniteAmmo();
             Destroy(other.gameObject);
+        }
+        if (other.gameObject.GetComponent<EnemyBoss>()) {
+            print("hit obstacles");
+            Destroy(other.gameObject);
+            TakeDamage(2);
         }
     }
 

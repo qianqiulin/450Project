@@ -13,8 +13,16 @@ public class EnemyBoss : MonoBehaviour
             Destroy(gameObject);
         }
     }
-        private void OnTriggerEnter2D(Collider2D other){
-        if(other.gameObject.tag=="Bullet"){
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.GetComponent<Bullet>())
+        {
+            //Taking away time when the object hits the shooter and then destroying obstacle with an explosion!
+            Destroy(gameObject);
+        }
+        else if (other.gameObject.CompareTag("Boundary")) // Check if the obstacle collides with a bullet
+        {
+            
             Destroy(gameObject);
         }
     }
